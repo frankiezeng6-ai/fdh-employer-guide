@@ -1,0 +1,6 @@
+.gh_token
+*.gh_token
+.env
+.DS_Store
+__pycache__/
+tools/gh_setup.py

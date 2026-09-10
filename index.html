@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="zh-Hans"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>菲佣常见问题与应对办法</title>
+<meta name="description" content="菲佣常见问题与应对办法 · 香港菲傭（外傭）管理經驗整理 · GitHub Pages 公開版">
+<style>
+:root{--bg:#f6f7f9;--panel:#fff;--fg:#1f2328;--muted:#656d76;--line:#d8dee4;--acc:#0969da;--acc-soft:#ddf4ff;
+--quote:#57606a;--quotebg:#f6f8fa;--tag:#8250df;--tagbg:#fbefff}
+html[data-theme=dark]{--bg:#0d1117;--panel:#161b22;--fg:#e6edf3;--muted:#8b949e;--line:#30363d;--acc:#58a6ff;
+--acc-soft:#0c2d6b;--quote:#8b949e;--quotebg:#1c2128;--tag:#d2a8ff;--tagbg:#2b2140}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI",
+"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;-webkit-font-smoothing:antialiased}
+.wrap{display:flex;max-width:1240px;margin:0 auto;gap:28px;padding:0 20px}
+aside{width:270px;flex:none;position:sticky;top:0;align-self:flex-start;max-height:100vh;overflow:auto;
+padding:24px 0 60px}
+aside h4{font-size:12px;letter-spacing:.08em;color:var(--muted);margin:18px 0 8px;text-transform:uppercase}
+#q{width:100%;padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:var(--panel);
+color:var(--fg);font-size:14px}
+.toc a{display:block;padding:5px 10px;margin:1px 0;border-radius:6px;color:var(--muted);text-decoration:none;
+font-size:13.5px;line-height:1.5}
+.toc a.sub{padding-left:22px;font-size:13px}
+.toc a:hover{background:var(--acc-soft);color:var(--acc)}
+main{flex:1;min-width:0;padding:24px 0 80px}
+.top{position:sticky;top:0;z-index:5;background:var(--bg);padding:14px 0 10px;border-bottom:1px solid var(--line);
+margin-bottom:22px;display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.btn{border:1px solid var(--line);background:var(--panel);color:var(--fg);border-radius:8px;padding:7px 12px;
+font-size:13.5px;cursor:pointer;text-decoration:none;display:inline-block;white-space:nowrap}
+.btn:hover{border-color:var(--acc);color:var(--acc)}
+.btn.primary{background:var(--acc);border-color:var(--acc);color:#fff}
+.btn.primary:hover{opacity:.88;color:#fff}
+.spacer{flex:1}
+h1{font-size:30px;line-height:1.35;margin:6px 0 6px;letter-spacing:-.01em}
+h2{font-size:22px;margin:44px 0 14px;padding-bottom:8px;border-bottom:2px solid var(--line)}
+h3{font-size:17.5px;margin:28px 0 10px;color:var(--acc)}
+p{margin:9px 0}
+ul{margin:9px 0;padding-left:22px}
+li{margin:5px 0}
+blockquote{margin:10px 0;padding:9px 14px;border-left:3px solid var(--line);background:var(--quotebg);
+color:var(--quote);font-size:14.5px;border-radius:0 6px 6px 0}
+code{background:var(--quotebg);padding:1px 5px;border-radius:4px;font-size:.92em}
+hr{border:0;border-top:1px solid var(--line);margin:26px 0}
+.sub{color:var(--muted);font-size:14px}
+.meta{color:var(--muted);font-size:13px;margin-top:6px}
+.note{background:var(--acc-soft);border:1px solid var(--acc);border-radius:10px;padding:12px 14px;font-size:14px;
+margin:16px 0}
+.hidden{display:none!important}
+#cnt{position:fixed;right:16px;bottom:16px;background:var(--panel);border:1px solid var(--line);
+border-radius:20px;padding:5px 12px;font-size:12.5px;color:var(--muted);box-shadow:0 2px 10px rgba(0,0,0,.08)}
+mark{background:#fff3a3;color:#000;border-radius:2px}
+html[data-theme=dark] mark{background:#5b4c00;color:#fff}
+@media(max-width:900px){.wrap{display:block}aside{position:static;width:auto;max-height:none;padding:16px 0 0}
+#tocbox{max-height:230px;overflow:auto;border:1px solid var(--line);border-radius:10px;padding:8px;margin-top:8px}}
+@media print{aside,.top,.btn,#cnt{display:none!important}body{background:#fff}main{padding:0}}
+</style></head><body>
+<div class="wrap">
+<aside>
+  <h4>搜索全文</h4>
+  <input id="q" placeholder="例：出糧 / 匯款 / Alipay / 解僱" autocomplete="off">
+  <div id="tocbox"><h4>目錄</h4><div class="toc"><a class="" href="#一-财务类问题-最高危">一、财务类问题（最高危）</a><a class="sub" href="#1-对外借钱-做担保人">1. 对外借钱、做担保人</a><a class="sub" href="#2-偷窃-钱-首饰-食物">2. 偷窃（钱、首饰、食物）</a><a class="sub" href="#3-买菜-打斧头-吃回扣">3. 买菜&quot;打斧头&quot;（吃回扣）</a><a class="sub" href="#4-新-出粮方式与凭证-现金-fps-alipayhk-三选一">4. 【新】出粮方式与凭证：现金 / FPS / AlipayHK 三选一</a><a class="sub" href="#5-新-汇款回乡-雇主不陪同-不代管-不追踪">5. 【新】汇款回乡：雇主不陪同、不代管、不追踪</a><a class="sub" href="#6-新-银行开户-雇主不要提供住址证明">6. 【新】银行开户：雇主不要提供住址证明</a><a class="sub" href="#7-新-八达通-电话卡-wi-fi-来港生活必备">7. 【新】八达通、电话卡、Wi-Fi：来港生活必备</a><a class="" href="#二-行为与纪律类">二、行为与纪律类</a><a class="sub" href="#8-手机上瘾-摸鱼">8. 手机上瘾、摸鱼</a><a class="sub" href="#9-装病-滥用病假">9. 装病、滥用病假</a><a class="sub" href="#10-门禁-外宿-失联">10. 门禁、外宿、失联</a><a class="sub" href="#11-八卦-泄露家庭隐私">11. 八卦、泄露家庭隐私</a><a class="sub" href="#12-蜜月期-过后变坏">12. &quot;蜜月期&quot;过后变坏</a><a class="sub" href="#13-教唆孩子">13. 教唆孩子</a><a class="sub" href="#14-新-作息-家规与试用期考核">14. 【新】作息、家规与试用期考核</a><a class="sub" href="#15-新-教她做事-做饭-家电-清洁标准">15. 【新】教她做事：做饭、家电、清洁标准</a><a class="sub" href="#16-新-沟通工具与背景调查">16. 【新】沟通工具与背景调查</a><a class="sub" href="#17-新-情绪-思乡-宗教与教会">17. 【新】情绪、思乡、宗教与教会</a><a class="sub" href="#18-新-朋友圈-男友-会所社交">18. 【新】朋友圈、男友、会所社交</a><a class="sub" href="#19-新-零食-咖啡-网购与诈骗">19. 【新】零食、咖啡、网购与诈骗</a><a class="" href="#三-照顾孩子类">三、照顾孩子类</a><a class="sub" href="#20-与孩子的身体边界">20. 与孩子的身体边界</a><a class="sub" href="#21-防伤害-防带走-给孩子戴智能手表">21. 防伤害、防带走：给孩子戴智能手表</a><a class="sub" href="#22-新-出行安全-安全座椅-过马路-巴士">22. 【新】出行安全：安全座椅、过马路、巴士</a><a class="sub" href="#23-怀孕风险">23. 怀孕风险</a><a class="" href="#四-雇佣关系与合规类">四、雇佣关系与合规类</a><a class="sub" href="#24-新-合约硬条款速查-签约前先背下来">24. 【新】合约硬条款速查（签约前先背下来）</a><a class="sub" href="#25-中介与挖角">25. 中介与挖角</a><a class="sub" href="#26-工资与加薪策略">26. 工资与加薪策略</a><a class="sub" href="#27-新-签证-paos-续约与转换雇主">27. 【新】签证、PAOS、续约与转换雇主</a><a class="sub" href="#28-新-假期-休息日-法定假日-年假与机票">28. 【新】假期：休息日、法定假日、年假与机票</a><a class="sub" href="#29-新-体检-疫苗与家佣保险">29. 【新】体检、疫苗与家佣保险</a><a class="sub" href="#30-新-机票-遣散费与长期服务金">30. 【新】机票、遣散费与长期服务金</a><a class="sub" href="#31-解雇与黑名单流程">31. 解雇与黑名单流程</a><a class="sub" href="#32-面试筛选技巧-实战总结">32. 面试筛选技巧（实战总结）</a><a class="sub" href="#33-新-直接聘请-diy-与中介退改规则">33. 【新】直接聘请（DIY）与中介退改规则</a><a class="" href="#附-雇主管理心法十二条">附：雇主管理心法十二条</a><a class="" href="#附二-本次更新索引-2026-09-09">附二：本次更新索引（2026-09-09）</a><a class="" href="#附三-待核实清单-n-a-落地前必须自己查一次">附三：待核实清单（N/A）——落地前必须自己查一次</a></div></div>
+</aside>
+<main>
+  <div class="top">
+    <a class="btn primary" target="_blank" rel="noopener" href="https://github.com/frankiezeng6-ai/fdh-employer-guide/edit/main/SOURCE.md">✏️ 在 GitHub 上編輯此頁</a><a class="btn" target="_blank" rel="noopener" href="https://github.com/frankiezeng6-ai/fdh-employer-guide/raw/main/菲佣常见问题与应对办法（经验整理）.docx">⬇️ 下載 Word 原件</a>
+    <a class="btn" href="#top">↑ 回到頂部</a>
+    <span class="spacer"></span>
+    <button class="btn" id="theme">🌓 深/淺色</button>
+    <button class="btn" onclick="window.print()">🖨 列印／存 PDF</button>
+  </div>
+  <div class="note">
+    本頁由 <code>SOURCE.md</code> 自動生成。想改內容？點右上角「在 GitHub 上編輯此頁」直接改 Markdown，
+    提交後 GitHub Actions 會在一分鐘內重建本頁。<b>附三</b>列出所有尚未核實的事項，使用前請自行向勞工處／入境處核對。
+  </div>
+  <h1 id="top">菲佣常见问题与应对办法</h1>
+<p class="srch"><strong>经验整理 · 第二版｜更新至 2026-09-09</strong></p>
+<blockquote class="srch">素材：香港雇主微信群「🇭🇰雇主智囊团」聊天记录（2026-04-17 至 2026-09-09，共 42,317 条）；本次新增出粮与汇款、银行开户、八达通／电话卡、假期与合约条款等章节，并重排条目编号。凡涉及金额、天数、法例条文而无法从群内取得一致说法的，一律标注「待核实（N/A）」，见附三。</blockquote>
+<h2 id="一-财务类问题-最高危">一、财务类问题（最高危）</h2>
+<h3 id="1-对外借钱-做担保人">1. 对外借钱、做担保人</h3>
+<p class="srch"><strong>常见表现</strong>：向财务公司（"财仔"/高利贷）借款；被老乡、朋友拉去借钱或做担保；欠债后被追债上门，甚至拿雇主的合约去借钱。借钱和赌博往往相伴出现。</p>
+<p class="srch"><strong>案例</strong>：有姐姐借了几万财仔，加薪一千也留不住，最后跑路；有工人被解雇当天，放贷的人已在楼下等她；有跑路工人拿雇主家的合约去借钱。</p>
+<p class="srch"><strong>解决办法</strong>：</p>
+<ul><li class="srch">面试时就严正声明"我家绝对不可以借钱、不可以做担保"，观察对方反应——眼神飘忽、犹豫的基本做不到，直接不请（这是最省成本的筛选手段）；</li></ul>
+<ul><li class="srch">写入工作指导的<strong>底线原则</strong>：对外借钱/贷款/担保，不论金额，不作警告即时解雇；</li></ul>
+<ul><li class="srch"><strong>发现她已经在外面借了钱</strong>：当面挑明——"解聘你的时候，我会同时通知财务公司，让他们在楼下等你。"债主是她自己躲不掉的，这句话威慑力极大，比讲一百遍道理管用；</li></ul>
+<ul><li class="srch"><strong>她反过来跟雇主借钱</strong>：不借，但给她台阶——"可以提前结清本月工资，本月工资也可以每日结账。"用日结把话说死：工资天天清、一分不欠，借钱没有任何理由开口；</li></ul>
+<ul><li class="srch">要求：有人怂恿借钱、担保、"投资"时，当场拒绝并于当日告知雇主；</li></ul>
+<ul><li class="srch">不预支工资、不垫付大额款项，避免制造债务关系；</li></ul>
+<ul><li class="srch">工人离职前，把合约那页蓝表格收回来直接撕毁——群内真实教训：有工人离职一年后，还拿旧合约和雇主家信息去借钱，财务公司找上门"问候"雇主；</li></ul>
+<ul><li class="srch">定期留意她朋友圈子里的人（她自己讲的日常就是线索）。</li></ul>
+<ul><li class="srch"><strong>【新】「被家人吸血」是新的高危画像：</strong>妈妈要求工资全部寄回家、家里天天找借口要钱——这类工人更容易铤而走险，招聘时就要问清家庭负担（见第5条）。</li></ul>
+<ul><li class="srch"><strong>【新】电子钱包也有借贷功能：</strong>AlipayHK、GCash 都能借钱，第一天就要明说「不可以在上面借钱，你借钱被我发现就滚」。</li></ul>
+<ul><li class="srch"><strong>【新】官方口径与群内一致：</strong>劳工处明确「雇主及职业介绍所不应牵涉在外佣的财务事宜中」——不陪同汇款、不代管钱，是有依据的。</li></ul>
+<h3 id="2-偷窃-钱-首饰-食物">2. 偷窃（钱、首饰、食物）</h3>
+<p class="srch"><strong>常见表现</strong>：小额偷钱、偷首饰（藏起来等机会带走）、偷吃给孩子的食物。案发后普遍不认错、卖惨、博同情，反咬是雇主逼走她。</p>
+<p class="srch"><strong>案例</strong>：有雇主长期信任的姐姐偷走钻石项链，雇主一直以为是自己放失手了，直到她跑路后报警才在其遗落的箱子里翻出；也有工人偷吃东西被孩子说出来；有邻居工人明知故问打探"你家是不是很多CCTV"。</p>
+<p class="srch"><strong>解决办法</strong>：</p>
+<ul><li class="srch">家中（含工人房）安装监控，且明确告知有CCTV——好工人反而喜欢，"这样雇主就知道我没偷懒"；</li></ul>
+<ul><li class="srch"><strong>怀疑她偷钱</strong>：把现金当面数清楚，就放在CCTV下面——之后少了多少，回放一翻就有数，比空口质问管用（群内实战做法）；</li></ul>
+<ul><li class="srch"><strong>发现金工资</strong>：数清楚、让她签名，<strong>在监控下面签</strong>；什么时候放假也一并签名——"我全部以签名为证，然后都在监控下"，日后有纠纷一个字都赖不掉；</li></ul>
+<ul><li class="srch">监控选大陆牌子（小米等，群内多家用），注意回放一般只保存21天左右，发现不妥要尽快翻看、截图留证；</li></ul>
+<ul><li class="srch">贵重物品、现金、首饰自行收好上锁，不摊在桌面；</li></ul>
+<ul><li class="srch">孩子说的话是重要信息源：孩子突然说"姐姐吃了我的××"要留心核实；</li></ul>
+<ul><li class="srch">发现失窃立即报警立案（即使暂无证据），留下记录，方便后续通知入境处、追责；</li></ul>
+<ul><li class="srch">心态：不要因相处好就100%信任，"做得再好也不能完全相信"是群里普遍共识。</li></ul>
+<ul><li class="srch"><strong>【新】离职清场要做彻底：</strong>有雇主在工人走后还能从房间各个犄角旮旯里捡出钱——说明平日藏东西是常态，离职当天连床缝、衣橱角、抽屉夹层都要清点一遍。</li></ul>
+<ul><li class="srch"><strong>【新】硬件双保险：</strong>床头柜带保险柜（现金首饰锁起来）＋ 给她房间单独配小冰箱（她自己的食物有地方放），既防盗也减少她动厨房东西的借口。</li></ul>
+<h3 id="3-买菜-打斧头-吃回扣">3. 买菜"打斧头"（吃回扣）</h3>
+<p class="srch"><strong>常见表现</strong>：买菜时收街市档口回佣、虚报价格、买贵买差充便宜。</p>
+<p class="srch"><strong>解决办法</strong>：</p>
+<ul><li class="srch">贵价食材（海鲜、牛肉）由雇主自己去相熟档口买，工人不碰；</li></ul>
+<ul><li class="srch">普通买菜要求保留所有收据，与市价核对；</li></ul>
+<ul><li class="srch">熟悉自己街市的正常价格水平，异常即问。</li></ul>
+<ul><li class="srch">【新】网购菜送上门是最稳的方案（菜价、数量都在订单里）：贵价菜自己买，普通菜让她照单买。</li></ul>
+<ul><li class="srch"><strong>【新】能在超市买就不去街市：</strong>超市明码标价有小票，街市档口容易报贵价——「我自己去买虾我看牌子 65，他说 45 给你」。</li></ul>
+<ul><li class="srch">【新】她房间放一个购物小票夹，每周核对一次。</li></ul>
+<h3 id="4-新-出粮方式与凭证-现金-fps-alipayhk-三选一">4. 【新】出粮方式与凭证：现金 / FPS / AlipayHK 三选一</h3>
+<p class="srch"><strong>为什么要写这条：</strong>出粮是雇主每月唯一必然发生、也最容易留下（或没留下）证据的金钱动作。给错方式，后面所有扣钱、借钱、偷窃的争议都无从举证。</p>
+<p class="srch"><strong>三种方式的取舍：</strong></p>
+<ul><li class="srch"><strong>现金：</strong>最常见。当面数清 → 工人签收 → 在 CCTV 下完成。好处是可即时结清、不牵涉雇主住址证明；代价是要自己备钞、留收据。</li></ul>
+<ul><li class="srch"><strong>FPS／银行转账：</strong>她有香港银行卡就能直接过数，电子记录最干净；前提是她已有户口（见第6条）。</li></ul>
+<ul><li class="srch"><strong>AlipayHK／电子钱包：</strong>她给你一个手机号就能搜到，转账即到账，她再从 AlipayHK 转去菲律宾 GCash。群内实测每日上限约 HK$5,000，月薪一次过可能要分两天或改回现金。</li></ul>
+<ul><li class="srch"><strong>支票／EPS：</strong>中介合约中通常也列为可行方式，少数雇主在用。</li></ul>
+<ul><li class="srch"><strong>一律不预支：</strong>预支一开口，后面就是借钱。真有急用，走「提前结清本月工资／日结」这条路，而不是预支下月。</li></ul>
+<p class="srch"><strong>出粮日的固定动作（群内"教科书"流程）：</strong></p>
+<ul><li class="srch">在监控下、固定时间发（白天孩子上学后，或晚上孩子睡后），别在孩子面前发；</li></ul>
+<ul><li class="srch">当面数清楚金额，让她看清楚；</li></ul>
+<ul><li class="srch">收据上写明日期、金额、本月放假天数，让她签名；</li></ul>
+<ul><li class="srch">趁她心情最好的时候，讲下个月的安排 + 这个月的一两句点评；</li></ul>
+<ul><li class="srch"><strong>不要在出粮日吵架、扣钱、算旧账——</strong>会毁掉这个唯一好说话的窗口。</li></ul>
+<p class="srch"><strong>法规与凭证（官方口径）：</strong></p>
+<ul><li class="srch">工资须至少每月支付一次，并在工资期结束后 7 天内支付；以现金支付的，每次都要有她签名的收据。</li></ul>
+<ul><li class="srch">扣薪只在《雇佣条例》允许范围内，因她疏忽损坏财物的单次扣除不得超过 HK$300。</li></ul>
+<ul><li class="srch">少付工资属刑事，最高罚款 HK$350,000 及监禁 3 年；签约前核对当期规定最低工资（见第24条）。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-09 HH）"然后当面数清楚，签名，说一下，下个月放假，怎么放，然后钱收起来，大家洗手消毒"</blockquote>
+<blockquote class="srch">（2026-09-09 HH）"发工资的时候，最好说话了"</blockquote>
+<blockquote class="srch">（2026-08-31 Bella。）"我队友叫我不要发现金给工人，转账有记录。我说我每次签名了。如果转账，我还要提供住址证明协助开银行卡，更不利"</blockquote>
+<blockquote class="srch">（2026-09-09 hky214）"支付宝 每天上限额 5000 啊"</blockquote>
+<h3 id="5-新-汇款回乡-雇主不陪同-不代管-不追踪">5. 【新】汇款回乡：雇主不陪同、不代管、不追踪</h3>
+<p class="srch"><strong>原则：</strong>这是群里最一致的共识，也与官方口径一致——劳工处明确「雇主及职业介绍所不应牵涉在外佣的财务事宜中」。钱按月给清，怎么汇、汇多少、寄给谁，是她自己的事。</p>
+<p class="srch"><strong>具体做法：</strong></p>
+<ul><li class="srch">第一次可带她去一次（熟悉 7-11／汇款店／中环 BP 的位置），之后让她自己在休息日办；</li></ul>
+<ul><li class="srch"><strong>她想在工作日请事假去寄钱：</strong>不给。放到休息日自己处理；</li></ul>
+<ul><li class="srch"><strong>不代管她的钱、不代汇、不垫资、不问她寄多少——</strong>一开口就变成金钱关系，收不住；</li></ul>
+<ul><li class="srch">不借钱这条底线同样适用于她的家人、配偶、男友（见第1条）。</li></ul>
+<p class="srch"><strong>她自己常用的渠道（群内观察，非推荐、未比价）：</strong></p>
+<ul><li class="srch">便利店／汇款店柜台现金汇款（最常见）；</li></ul>
+<ul><li class="srch">AlipayHK → 菲律宾 GCash 电子钱包；</li></ul>
+<ul><li class="srch">菲律宾本地银行账户（如 BDO）；</li></ul>
+<ul><li class="srch"><strong>Western Union、找换店：</strong>群内几乎无人提及，汇率与手续费 待核实（N/A）。</li></ul>
+<p class="srch"><strong>风险信号：</strong></p>
+<ul><li class="srch">「发工资必须全部寄回家给她妈妈花」「家里天天找各种借口要钱」——被家人／老乡／前男友吸血的工人，是提前离职、铤而走险的高危人群，招人时就要问清家庭负担；</li></ul>
+<ul><li class="srch">她本人几乎不留生活费、一发工资就寄光，同样要盯。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-09 雇主们·有招支招）"我家这个感觉被家里疯狂吸血，发工资必须全部打回家给她妈妈花"</blockquote>
+<blockquote class="srch">（2026-06-03 cyr0926）"星期一下午三点多跟我说她想立刻去寄钱 / 我问中介，中介说让他等休息日自己处理"</blockquote>
+<blockquote class="srch">（2026-08-18 Lu-璐文）"菲律宾那边会用 gcash 账号，姐姐用香港支付宝直接可以转钱去菲律宾的 gcash"</blockquote>
+<h3 id="6-新-银行开户-雇主不要提供住址证明">6. 【新】银行开户：雇主不要提供住址证明</h3>
+<p class="srch"><strong>群内共识：</strong></p>
+<ul><li class="srch"><strong>新工人来港通常没有香港银行户口，也不必然需要——</strong>现金、AlipayHK、便利店汇款已经够用；</li></ul>
+<ul><li class="srch"><strong>雇主主动不配合开户：</strong>开卡往往要雇主出住址证明，等于把家庭地址交出去，且怕她拿户口去申请信用卡、借钱；</li></ul>
+<ul><li class="srch">「转账有记录更干净」这个反驳也成立，但群里主流仍选现金＋签名＋CCTV，理由只有一条：不把住址证明交出去；</li></ul>
+<ul><li class="srch">若确实需要（例如她只能现金汇款且金额大），可陪同办一张雇主可控的副卡，先把额度、用途、责任写清楚。</li></ul>
+<p class="srch"><strong>待核实（N/A）：</strong>各银行对持 HKID 非永久居民／外佣独立开户的最低门槛不一，虚拟银行是否可行群内未讨论——需要时直接查银行官网，别听中介口头承诺。</p>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-07-09 cyr0926）"有户口我怕她申请信用卡借钱"</blockquote>
+<blockquote class="srch">（2026-09-09 peiyu9058）"来香港工作是不是就会弄香港账户，不然现金存哪里"</blockquote>
+<h3 id="7-新-八达通-电话卡-wi-fi-来港生活必备">7. 【新】八达通、电话卡、Wi-Fi：来港生活必备</h3>
+<p class="srch"><strong>八达通：</strong></p>
+<ul><li class="srch">要给就给实体卡，不要绑她手机（绑了等于失控）；</li></ul>
+<ul><li class="srch">小额充值，50–300 一档，不要一次充 500 以上——「你给她充 500 又不检查，两天就给你花光」；</li></ul>
+<ul><li class="srch">卡本身有 HK$50 押金；充多了出事最多赔你 300；</li></ul>
+<ul><li class="srch">用八达通 App 绑到雇主手机上，可查每一笔消费记录；不绑就等于泼出去的水，花错地方没有证据；</li></ul>
+<ul><li class="srch">她的私人八达通与公事八达通不要混用；搬家／离职时记得收回；</li></ul>
+<ul><li class="srch"><strong>给不给看需求：</strong>要送孩子、要买菜就给；不出门就不用给。</li></ul>
+<p class="srch"><strong>电话卡：</strong></p>
+<ul><li class="srch">好中介会代办（体检完连人带卡送到楼下）；不代办就让她在 7-11 自己买，给一小时假；</li></ul>
+<ul><li class="srch"><strong>给不给 SIM 卡看取舍：</strong>给了方便随时联系，也等于给她开了刷 Facebook／WhatsApp 的口子。</li></ul>
+<p class="srch"><strong>Wi-Fi：</strong></p>
+<ul><li class="srch">群内主流不给密码（有 Wi-Fi 但不告诉她），或用访客网络／MAC 过滤隔离；</li></ul>
+<ul><li class="srch"><strong>她 plan 流量用完了要你代充值——</strong>可以拒绝，让她自己解决。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-02 xiaoyezi312744）"实体卡"</blockquote>
+<blockquote class="srch">（2026-09-02 Ethan26）"你给她充 500 又不检查，两天就给你花光"</blockquote>
+<blockquote class="srch">（2026-09-04 Miss_77）"想问下群里的姊妹，菲姐刚来要给她办电话卡吗？"</blockquote>
+<h2 id="二-行为与纪律类">二、行为与纪律类</h2>
+<h3 id="8-手机上瘾-摸鱼">8. 手机上瘾、摸鱼</h3>
+<p class="srch"><strong>常见表现</strong>：做饭时手机放旁边戴耳机、躲洗手间刷手机、照顾孩子时刷视频、半夜刷到十二点，早上无精神。</p>
+<p class="srch"><strong>解决办法</strong>：</p>
+<ul><li class="srch">面试时严讲"工作时间不可玩手机"并观察反应；</li></ul>
+<ul><li class="srch">工作时间手机放在客厅柜面，需要时才拿；升级版：<strong>手机直接锁柜桶，同时给孩子配一个小天才手表</strong>——她要用手机找你，打孩子的手表就行，两头都管住（群内雇主真实配置）；</li></ul>
+<ul><li class="srch">带孩子下楼玩禁止带手机；</li></ul>
+<ul><li class="srch">CCTV威慑：有的雇主直接通过监控对话功能喊话，"他们就知道我一直在看"；</li></ul>
+<ul><li class="srch">老油条会算准你出门才玩——"坐在CCTV下正大光明玩"，所以别只看实时，有空翻<strong>回放</strong>，发现偷吃零食、抽厨房纸巾擦手机这种小动作，攒着一起算；</li></ul>
+<ul><li class="srch"><strong>警告方式</strong>：群里共识"警告信没什么用，口头严厉警告"——当场语气要重，"警告一次、给两次机会，不行直接开了"；</li></ul>
+<ul><li class="srch">处理尺度：能力强、做完事才玩的可以睁只眼闭只眼（"宝宝一哭马上洗手跑过去"这种底线守得住就行）；照顾孩子时玩必须当场制止——"玩几次你没反应，她就大着胆子继续玩"。</li></ul>
+<h3 id="9-装病-滥用病假">9. 装病、滥用病假</h3>
+<p class="srch"><strong>常见表现</strong>：早上发信息说不舒服不能做早饭；不请假但不干活；学会了"生病是我的权利"话术。</p>
+<p class="srch"><strong>解决办法</strong>：</p>
+<ul><li class="srch">法律知识：香港规定须<strong>连续病假3天以上+医生纸</strong>才算正式病假，一天半天不算；</li></ul>
+<ul><li class="srch"><strong>不打招呼就称病</strong>：规矩写死——"你要休病假，就让医生开病假纸咯。"先报备、后补医生纸，<strong>两者齐全才批准</strong>；没有医生纸就不算病假，不批；</li></ul>
+<ul><li class="srch"><strong>医生纸要当场验</strong>：让她同时展示医生纸和开的药，药和纸对得上才算数（群内实战做法：光看纸没用，纸好开、药难编）；</li></ul>
+<ul><li class="srch">偶尔一次可以体谅（医药费雇主出），但第一次就要明确态度："不舒服可以，但报备方式、频次要有规矩"，防止被教唆后常态化；</li></ul>
+<ul><li class="srch">无医生纸却整天不干活的，按纪律谈话记录在案；</li></ul>
+<ul><li class="srch">医生纸由雇主付费这一点要有心理准备，避免被拿捏。</li></ul>
+<ul><li class="srch"><strong>【新】把体检前置到抵港后：</strong>幽门螺杆菌、HPV、疱疹、验孕等加项一次做完（见第29条），既验真菲律宾体检，也避免日后反复请假看病。</li></ul>
+<ul><li class="srch"><strong>【新】配药别只听中介推荐的医生：</strong>有群友被开价 2,000 多，公立医院配药通常便宜一半。</li></ul>
+<h3 id="10-门禁-外宿-失联">10. 门禁、外宿、失联</h3>
+<p class="srch"><strong>常见表现</strong>：假期越夜越归；干脆不回家也不说；突然联系不上；极端者护照在雇主手上也能"消失"。</p>
+<p class="srch"><strong>解决办法</strong>：</p>
+<ul><li class="srch">门禁写入工作指导：假期晚上9点前回家，任何情况不得外宿；</li></ul>
+<ul><li class="srch"><strong>警惕试探</strong>：有工人来了一个月就问"能不能把回来时间从八点改到九点，楼上朋友家的门禁是九点"——规矩一松就收不回来，第一次就要顶住不改；</li></ul>
+<ul><li class="srch"><strong>放她一个人在家</strong>（你全家外出时）：把门禁卡收起来——"不要想着跑出去"，电话手表/监控远程看着家；</li></ul>
+<ul><li class="srch">外出须告知大致去向、保持电话畅通、及时回复讯息；</li></ul>
+<ul><li class="srch">写入底线原则：超时未归/外宿、失联24小时→即时解雇；</li></ul>
+<ul><li class="srch">真失联了：立即联系中介，给信中止合约、通知入境处、列入黑名单，同时安排替补（见第31条流程）。</li></ul>
+<h3 id="11-八卦-泄露家庭隐私">11. 八卦、泄露家庭隐私</h3>
+<p class="srch"><strong>常见表现</strong>：在会所/楼下与其他姐姐互相打探——雇主收入、去哪旅游、家有几口、对姐姐好不好；话会越传越变形，甚至被拿来跟中介讨价还价。</p>
+<p class="srch"><strong>解决办法</strong>：</p>
+<ul><li class="srch">第一天入职就讲明：家里任何事情都不可对外说，包括"雇主对我好不好"；</li></ul>
+<ul><li class="srch">禁止与小区内其他佣工闲聊（住客会所、后门对后门都是高发场景）；</li></ul>
+<ul><li class="srch">不拍摄家中和孩子的照片、不发社交媒体；</li></ul>
+<ul><li class="srch">家人行程、财务、休假计划等敏感信息只在她需要知道的前一刻才告知。</li></ul>
+<h3 id="12-蜜月期-过后变坏">12. "蜜月期"过后变坏</h3>
+<p class="srch"><strong>常见表现</strong>：头一两个月什么都好；认识朋友后开始有要求——要补贴、要假期、谈权利；有人教唆后"本性马上暴露"。</p>
+<p class="srch"><strong>解决办法</strong>：</p>
+<ul><li class="srch">蜜月期只是观察期，"别太早把真心交付出去"；</li></ul>
+<ul><li class="srch">从小细节看品行：诚实度、是否会贪小便宜、被提醒后的反应；</li></ul>
+<ul><li class="srch">一开始不要给太好待遇、太高工资（见第26条），把奖励空间留到后面表现好时给——"先给后期收回会黑脸，后给才是惊喜"；</li></ul>
+<ul><li class="srch">定期敲打：每月重申一次规矩，防止慢慢漂移。</li></ul>
+<h3 id="13-教唆孩子">13. 教唆孩子</h3>
+<p class="srch"><strong>常见表现</strong>：借孩子的口向雇主要东西（"姐姐手机坏了"→孩子找爸爸买最新款）；当着孩子说雇主坏话、挑拨；孩子稍大就发现"姐姐说的话和妈妈不一样"。</p>
+<p class="srch"><strong>解决办法</strong>：</p>
+<ul><li class="srch">明令禁止：不许跟孩子讲任何自己的私事和要求；</li></ul>
+<ul><li class="srch">发现后当场警告+跟孩子解释清楚（"姐姐是在给你洗脑"）；</li></ul>
+<ul><li class="srch">用CCTV留意她与孩子的对话内容；</li></ul>
+<ul><li class="srch">此条与偷窃并列为"无法容忍"级问题，屡教不改即终止合约。</li></ul>
+<h3 id="14-新-作息-家规与试用期考核">14. 【新】作息、家规与试用期考核</h3>
+<ul><li class="srch">默认稳妥作息是「早 6 晚 9」；有孩子要上学的，早上 6:30–7:00 一切就绪是硬规矩。</li></ul>
+<ul><li class="srch">不要出现「她 6:30 起、雇主 8 点才起」的空转——她会越来越懒，规矩要跟着雇主的实际生活定。</li></ul>
+<ul><li class="srch"><strong>起床偷懒：</strong>自己说了不听，就打电话给中介骂，让中介去压她——比雇主开口管用。</li></ul>
+<ul><li class="srch"><strong>假期不要连着放：</strong>周五＋周六或周六＋周日错开；周日留她在家做深层清洁（洗冰箱、洗浴室）。</li></ul>
+<ul><li class="srch"><strong>试用期：</strong>合约内写明试用期内 7 天书面通知、正式后 30 天（见第31条）；真想验货，直接约上门试工半天，比视频面试真实得多。</li></ul>
+<ul><li class="srch">给她一段没人盯的清净时段（周六你自己带娃、周日她深层清洁），她反而会主动把事做漂亮。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-05 棉花糖）"我现在的作息就是早6晚9"</blockquote>
+<blockquote class="srch">（2026-09-01 Lu-璐文）"我也会找中介骂，打电话给中介，中介就会又去说菲佣"</blockquote>
+<blockquote class="srch">（2026-09-07 Amy）"其实真的想做可以直接上门试工，一做就看出来"</blockquote>
+<h3 id="15-新-教她做事-做饭-家电-清洁标准">15. 【新】教她做事：做饭、家电、清洁标准</h3>
+<p class="srch"><strong>原则：</strong>不要合并步骤，一步步教。「人教人教不会，事教人一次就会」。</p>
+<p class="srch"><strong>做饭：</strong></p>
+<ul><li class="srch"><strong>不要发菜单让她自己看——</strong>「如果我发这些给我工人，他一定回复我，太太我不懂」；现场示范 3 次 + 上手监督到出结果 + CCTV 复盘抽查；</li></ul>
+<ul><li class="srch">家人做菜的图文步骤（照片／短片）比网上菜谱视频好用；</li></ul>
+<ul><li class="srch"><strong>中餐饮食习惯是可以带出来的：</strong>少盐少辣、跟着家里吃，长期对她和全家都好。</li></ul>
+<p class="srch"><strong>家电（高发 bug）：</strong></p>
+<ul><li class="srch">蒸汽消毒柜不放水干烧一小时、电饭煲按了预约键 4 小时后才煮、分不清预约与即时——全部要当面教一遍；</li></ul>
+<ul><li class="srch"><strong>抽油烟机、洗碗机、烘炉：</strong>开哪一档、放多少水、洗多久，写张便签贴在机身上。</li></ul>
+<p class="srch"><strong>清洁标准与工具：</strong></p>
+<ul><li class="srch"><strong>地面四步：</strong>滚筒粘纸去毛发 → 地板消毒液拖 → 一次性湿巾拖 → 一次性干巾拖；</li></ul>
+<ul><li class="srch">手持洗地机（干湿两用、能卷头发）是群里最高频推荐；一次性替换头拖把能省掉她「去涮拖把」的偷懒借口；</li></ul>
+<ul><li class="srch"><strong>扫地机器人慎买：</strong>有雇主装了之后工人干脆不扫不拖——监督不到位的家庭别装。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-07 HH）"一步步教"</blockquote>
+<blockquote class="srch">（2026-09-01 Lu-璐文）"先用滚筒那种粘胶纸把全部地上的头发和大颗粒灰尘粘走……最后用一次性干巾拖一遍"</blockquote>
+<blockquote class="srch">（2026-09-07 Cherie1220）"最近买了扫地机器人 工人也不扫地也不拖地了"</blockquote>
+<blockquote class="srch">（2026-09-02 雇主们·有招支招）"蒸汽消毒柜不放水，直接干烧一个小时"</blockquote>
+<h3 id="16-新-沟通工具与背景调查">16. 【新】沟通工具与背景调查</h3>
+<ul><li class="srch"><strong>语音翻译最省事：</strong>把语音翻成文字再翻成她的语言，比打字快；文字 + 图片（菜谱、地图、地铁图）最稳。</li></ul>
+<ul><li class="srch">WhatsApp 已是招聘标配，聊得上就先要一段自我介绍视频，看表达和紧张度。</li></ul>
+<ul><li class="srch"><strong>背景调查别只听中介：</strong>Facebook 翻她的朋友圈能看出真实圈子，运气好能直接找到前屋主——有雇主就是这么发现对方是碰瓷的。</li></ul>
+<ul><li class="srch"><strong>圈子稳定性比大小重要：</strong>FB 追踪到她只在固定的 3 个朋友／老乡之间转，这种最稳；一到节假日每天换人、十几个人来往，教唆风险陡升。</li></ul>
+<ul><li class="srch"><strong>网上查名：</strong>helper-employer.com 之类的雇主评价站可以搜搜看，覆盖率有限，搜不到不等于没问题。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-04 HH）"现在雇主发到 Facebook 找到这个工人姐姐的前屋主，前屋主告诉他是碰瓷的"</blockquote>
+<blockquote class="srch">（2026-09-05 Frankie）"fb 追踪到她一直在马来就来来回回 3 个朋友，圈子固定"</blockquote>
+<blockquote class="srch">（2026-09-03 荞伊）"helper-employer.com ……我去 这上面怎么收不到油条菲的名字呢"</blockquote>
+<h3 id="17-新-情绪-思乡-宗教与教会">17. 【新】情绪、思乡、宗教与教会</h3>
+<ul><li class="srch"><strong>思乡高发在来港 1–2 个月：</strong>家人去世、孩子生病这类事，给她 1–2 小时独处，不打扰、不追问，比讲道理有用。</li></ul>
+<ul><li class="srch">「喊着要走」是真要走的前兆，立刻通知中介、同步找替补，别等她递信。</li></ul>
+<ul><li class="srch">情绪价值可以给（她做的饭照吃、做得好就夸），但底线不能让：不加薪、不预支、不放宽门禁。</li></ul>
+<ul><li class="srch"><strong>宗教：</strong>多数菲佣是天主教，周日要望弥撒；少数新教，周日「加堂」（做礼拜）。教会既是精神支撑也是社交圈——圣周、黑耶稣节等她会想放假，提前排进年度假期表。</li></ul>
+<ul><li class="srch">她房间给一点领地感（小冰箱、床头灯、衣架），情绪会稳很多。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-01 fox200502000）"她说她在房间偷偷哭"</blockquote>
+<blockquote class="srch">（2026-09-02 hky214）"做饭正常 她做啥我都吃 我都给情绪价值哈哈哈"</blockquote>
+<blockquote class="srch">（2026-09-03 Amy）"我们家这个基本上星期天都是去加堂，你们呢？"</blockquote>
+<h3 id="18-新-朋友圈-男友-会所社交">18. 【新】朋友圈、男友、会所社交</h3>
+<ul><li class="srch"><strong>「不放假就认识不到朋友」是误区：</strong>会所后门对后门、WhatsApp 群组里照样认识人。</li></ul>
+<ul><li class="srch"><strong>在港拍拖多发于来港 3–6 个月（蜜月期后）：</strong>突然请假、突然要返乡、频繁晚归是信号。</li></ul>
+<ul><li class="srch">排查她在 FB／WhatsApp 上聊天对象的归属国与语言，是菲律宾本地人的高危。</li></ul>
+<ul><li class="srch"><strong>老乡／朋友教唆是离职第一外因：</strong>被解雇一个月就被老乡接走、加了 500 又舍不得走的都有。</li></ul>
+<ul><li class="srch">认清会所固定圆桌那几个人，避开「教唆王」；用 CCTV 的出门／回家时间戳对一对，看她「出门买菜 4 小时」是不是真的。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-02 荞伊）"然后问我为什么解雇她 然后说她也是被朋友教唆的"</blockquote>
+<blockquote class="srch">（2026-09-06 Ethan26）"她本来说做两年的，可能加了 500 后，不舍得走了"</blockquote>
+<blockquote class="srch">（2026-09-04 xiaoyezi312744）"我现在发现 即使不给姐姐放假 他们也能认识朋友"</blockquote>
+<h3 id="19-新-零食-咖啡-网购与诈骗">19. 【新】零食、咖啡、网购与诈骗</h3>
+<ul><li class="srch"><strong>水果零食：</strong>需要她自己放假出去买——一句话省掉七成额外开支；真要补贴就固定额度、固定日子。</li></ul>
+<ul><li class="srch">过期零食打包送她会踩自尊雷（她不舍得扔、反过来问能不能给她）；要送就单独买，别送清库存。</li></ul>
+<ul><li class="srch">咖啡、面包这类「给她当早餐」的要求，一开例会一直加码，回复「自己的早餐自己安排」即可。</li></ul>
+<ul><li class="srch"><strong>网购：</strong>拼多多买抹布、地垫、收纳是群内常态；买菜送上门也是最稳的「买菜不偷懒」方案（见第3条）。</li></ul>
+<ul><li class="srch"><strong>诈骗要转告她：</strong>集运／快递诈骗会冒充客服打电话要单号——只认 App 内客服，外部电话一律挂断。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-09 雇主们·有招支招）"我直接说水果零食你需要自己放假出去自己买，她点点头"</blockquote>
+<blockquote class="srch">（2026-09-05 y-qiqi_）"给她买了一袋面包当早餐，她今天见我去超市，问我能不能给她买咖啡当早餐"</blockquote>
+<blockquote class="srch">（2026-09-08 HH）"现在诈骗真的牛逼……他马上联系集运客服：人家说不会打电话给我，是骗子"</blockquote>
+<h2 id="三-照顾孩子类">三、照顾孩子类</h2>
+<h3 id="20-与孩子的身体边界">20. 与孩子的身体边界</h3>
+<p class="srch"><strong>常见表现</strong>：亲吻孩子（嘴、脸）；把孩子当自己孩子搂抱拍照。</p>
+<p class="srch"><strong>解决办法</strong>：</p>
+<ul><li class="srch">白纸黑字写进工作指导：禁止亲吻孩子嘴和脸，"只有妈妈能亲"；</li></ul>
+<ul><li class="srch">话术参考："我知道你喜欢小胖子，但爷爷奶奶都不可以亲，只有妈妈能亲"——直接说，不必不好意思，"你是孩子家长"；</li></ul>
+<ul><li class="srch">关心通过陪玩、说话、唱歌表达即可。</li></ul>
+<h3 id="21-防伤害-防带走-给孩子戴智能手表">21. 防伤害、防带走：给孩子戴智能手表</h3>
+<p class="srch"><strong>为什么要做</strong>：伤害小朋友属红线问题，但事后追责不如事前防护。带孩子外出后说不清去了哪、去多久，靠追问永远是被动的；手表戴在孩子手上，位置和通话主动权都在雇主手里。</p>
+<p class="srch"><strong>群内做法</strong>：</p>
+<ul><li class="srch">给<strong>小朋友</strong>戴儿童智能手表（定位+通话），而不是给菲佣戴——手表戴在菲佣手上，她会抗拒，还有其他姐姐挑拨"你雇主不信任你、用这手表追踪你"，甚至说"如果我的雇主给我手表我不会带"；戴在孩子身上名正言顺，谁都说不出话；</li></ul>
+<ul><li class="srch">群内真实反馈："我现在就很后悔没有一开始就给他安排一个儿童手表"；有雇主配套使用"工作时间手机锁柜桶，给孩子配一个小天才手表"，两件事互相补位；</li></ul>
+<ul><li class="srch">手表随时看定位，孩子离开指定范围立刻知道；通话功能直接联系孩子，信息不再完全依赖菲佣转述；</li></ul>
+<ul><li class="srch">手表款式选能打电话、能定位、孩子愿意天天戴的（群里多次求推荐，说明是刚需）。</li></ul>
+<h3 id="22-新-出行安全-安全座椅-过马路-巴士">22. 【新】出行安全：安全座椅、过马路、巴士</h3>
+<ul><li class="srch">安全座椅从出生就要坐，2 岁后才纠正基本坐不住；选有 isofix 接口的款式（群内点名 Britax Safe n Sound，澳洲标准是 8 岁前必须坐）。</li></ul>
+<ul><li class="srch"><strong>坐私家车／坐巴士都要坐好、系好——</strong>「不做安全座椅很危险，他们会乱动」。</li></ul>
+<ul><li class="srch">过马路要牵手、走斑马线、等绿灯，写进工作指引；带娃出门不带手机（见第8条）。</li></ul>
+<ul><li class="srch"><strong>出门背她抱她都不如让她安静：</strong>儿歌／童谣类 APP 是群内常用的「静音工具」。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-06 Cherie1220）"澳洲是 8 岁前一定要做安全座椅，不然往死里罚"</blockquote>
+<blockquote class="srch">（2026-09-06 雇主们·有招支招）"不做安全座椅很危险，他们会乱动"</blockquote>
+<h3 id="23-怀孕风险">23. 怀孕风险</h3>
+<p class="srch"><strong>常见表现</strong>：放假外出发生关系后怀孕；回国产子再回港；极端情况被解雇反而"赚"了赔偿和机票，等于带薪旅游。</p>
+<p class="srch"><strong>解决办法</strong>：</p>
+<ul><li class="srch">招聘时倾向35–40岁、已在港有完整合约记录者；</li></ul>
+<ul><li class="srch">家佣保险选择包含怀孕相关保障的计划（投保前与顾问核实条款）；</li></ul>
+<ul><li class="srch">假期回国前提醒避孕常识（群内雇主真实做法）；</li></ul>
+<ul><li class="srch">注意：法律上怀孕不是解雇理由，预防远比处理容易。</li></ul>
+<ul><li class="srch">【新】法例上外佣在港怀孕不得解雇，雇主还要承担有薪产假及在港产检、分娩的医疗费用——招人阶段筛（35–40 岁、有完整在港合约记录）＋ 投保时确认怀孕相关保障，是唯一防线。</li></ul>
+<h2 id="四-雇佣关系与合规类">四、雇佣关系与合规类</h2>
+<h3 id="24-新-合约硬条款速查-签约前先背下来">24. 【新】合约硬条款速查（签约前先背下来）</h3>
+<ul><li class="srch"><strong>规定最低工资（MAW）：</strong>每月 HK$5,100，适用于 2025 年 9 月 30 日或以后签订的合约——每年检讨，签约前查劳工处最新公告。</li></ul>
+<ul><li class="srch"><strong>膳食津贴：</strong>每月不少于 HK$1,236，仅在雇主不提供免费膳食时才需支付。合约原文："If no food is provided, a food allowance of HK$1,236 a month shall be paid to the Helper." 雇主已供餐，她再来要津贴，把这句话背给她听。</li></ul>
+<ul><li class="srch"><strong>合约期：</strong>标准 2 年。雇主资格：家庭入息不少于每月 HK$15,000 或等值资产。</li></ul>
+<ul><li class="srch"><strong>雇主必付：</strong>免费膳食或膳食津贴、合适住宿（合理私隐）、来回原居地旅费、免费医疗、雇员补偿（工伤）保险。</li></ul>
+<ul><li class="srch"><strong>出粮：</strong>至少每月一次，工资期结束后 7 天内支付；现金支付须有签名收据（见第4条）。</li></ul>
+<ul><li class="srch"><strong>终止合约：</strong>须于合约终止日期起 7 天内通知入境处（见第31条）。</li></ul>
+<ul><li class="srch">外佣只可在合约订明的雇主住所处理家务，不得安排她为其他人工作——否则她和你都可能被刑事检控。</li></ul>
+<ul><li class="srch"><strong>擦外窗两条硬规定（标准合约已列明）：</strong>窗户须装窗花并锁上／固定，且她除手臂外身体任何部分不得伸出窗外。违反出事，雇主责任极重。</li></ul>
+<ul><li class="srch">少付工资最高罚款 HK$350,000 及监禁 3 年。</li></ul>
+<p class="srch"><strong>官方渠道：</strong>劳工处外佣专页 fdh.labour.gov.hk（外佣科热线 3582 8987；外佣求助热线 2157 9537）；入境处「外籍家庭佣工网上服务」。</p>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-02 荞伊）"我直接把合同上那句 If no food is provided, a food allowance of HK$ 1236 a month shall be paid to the Helper. 给她背出来了，她当时惊了"</blockquote>
+<h3 id="25-中介与挖角">25. 中介与挖角</h3>
+<p class="srch"><strong>常见表现</strong>：无良中介三天两头打电话撬走好工人；交完中介费工人不来（跳单失联）；中介只推"简历好看"的人，履历无法核实。</p>
+<p class="srch"><strong>解决办法</strong>：</p>
+<ul><li class="srch">选中介看口碑：好的中介会先面试筛选、随时解答问题；差的只管收钱；</li></ul>
+<ul><li class="srch"><strong>核实简历三件套</strong>：过往雇佣合约 + 护照记录（看签证页核工龄，说干8年、签证页真是8年才可信）+ 前雇主联系方式；反馈"基本上都拿不出"，一提三件套直接已读不回的，基本就是简历造假，正好帮你省了面试时间；</li></ul>
+<ul><li class="srch">完约工人也是渠道——邻居、朋友家做得好的，直接挖过来反而可靠；共识"好姐姐不流通市场，加钱人家也不来"，市场上流通的多是别人挑剩的；</li></ul>
+<ul><li class="srch">跳单工人：通知中介追讨费用、通知入境处，列入群内黑名单；</li></ul>
+<ul><li class="srch">面试时要求联系前雇主核实："不敢给前雇主联系方式的多半有点东西"；索要烹饪照片等可用网图造假，要视频验证。</li></ul>
+<ul><li class="srch"><strong>【新】FB 找前屋主：</strong>有雇主把情况发到 Facebook，直接找到工人的前屋主，才知道对方是碰瓷的（见第16条）。</li></ul>
+<ul><li class="srch">【新】helper-employer.com 之类的雇主评价站可以搜名字，覆盖率有限，搜不到不等于没问题。</li></ul>
+<ul><li class="srch"><strong>【新】退改规则要写进合同：</strong>90 天内雇主提出／工人提出分别怎么算，见第33条。</li></ul>
+<h3 id="26-工资与加薪策略">26. 工资与加薪策略</h3>
+<p class="srch"><strong>群内共识</strong>：</p>
+<ul><li class="srch">合同永远写政府指导价，实际加薪<strong>不写进合同</strong>（避免日后违约金按高工资算）；</li></ul>
+<ul><li class="srch">不要一开始给高工资："你不知道她值不值这个价"；工资给太高"她只会觉得雇主是条水鱼"；</li></ul>
+<ul><li class="srch">加薪作为奖励：做满一年、表现好才主动加，"后期表现好你奖励她，她更开心、更有动力"；</li></ul>
+<ul><li class="srch">用年终奖代替固定加薪，灵活度更高；<strong>画饼话术</strong>（群内实战）："你在我家好好干，年底了给你发个年终奖金"——成本后置，主动权全在雇主，钱到年底发不发、发多少，看你表现；</li></ul>
+<ul><li class="srch">发工资：发现金就让她<strong>签名+在监控下签</strong>，几号发、放了几天假都白纸黑字，一劳永逸；</li></ul>
+<ul><li class="srch">日常用小恩小惠（水果、偶尔请吃一餐）维护关系，比空谈感情实在；分寸参考："水果会分一些，但不单独给她另买零食"，好待遇给太足反而不珍惜。</li></ul>
+<ul><li class="srch"><strong>【新】法定底线：</strong>MAW HK$5,100／膳食津贴 HK$1,236（2025-09-30 起合约），雇主供餐就不给津贴（见第24条）。</li></ul>
+<ul><li class="srch"><strong>【新】红包与蛋糕的尺度：</strong>新年红包 20 元就够，生日蛋糕 50 元四件那种、让她拿回自己房间吃——不要养成红包通胀。</li></ul>
+<ul><li class="srch"><strong>【新】群内共识：</strong>不轻易加薪，宁可用奖金／红包／实物——「不要随便给工人加工资，还是给奖励，真的不要」。</li></ul>
+<h3 id="27-新-签证-paos-续约与转换雇主">27. 【新】签证、PAOS、续约与转换雇主</h3>
+<ul><li class="srch"><strong>抵港后须参加 PAOS 入职宣讲会：</strong>香港金钟皇后大道 95 号合众大厦 18 楼，下午 1:15 开始，迟到不得入场，须带护照原件；改期须经中介重新预约（联络电邮 paoshongkong@gmail.com）。</li></ul>
+<ul><li class="srch"><strong>同雇主续约：</strong>无需重新办签证，按新合约期直接续。</li></ul>
+<ul><li class="srch"><strong>转换雇主：</strong>断约跳槽的工人坚决不要，简历三件套照查（见第25条）。群内流传「到港 3 个月内断约、5 年内禁入港就业」等说法，未与入境处核实（N/A），别拿来当谈判依据。</li></ul>
+<ul><li class="srch"><strong>带她回内地要办中国签证：</strong>可 DIY 网上申请、预约成功出纸后让她自己去；嫌麻烦可找中介代办（群内报价：首次约 HK$1,560 含签证费，第二次手续费 850＋签证费 830，仅作参考）。</li></ul>
+<ul><li class="srch"><strong>她的证件要盯紧：</strong>有工人弄丢身份证，买好票又退票，来回折腾三次才回得去。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-02 Lu-璐文）"不难，不用跑来跑去的 / 网上申请，预约成功了有纸出了可以叫姐姐去"</blockquote>
+<blockquote class="srch">（2026-09-02 Amy）"身份证被姐姐掉了 / 票买好了又退了……第三次才回到去"</blockquote>
+<h3 id="28-新-假期-休息日-法定假日-年假与机票">28. 【新】假期：休息日、法定假日、年假与机票</h3>
+<ul><li class="srch"><strong>休息日：</strong>每周至少 1 天（群内普遍给周日）；例假计划提前 2 周通知雇主——这条直接写进工作指引。</li></ul>
+<ul><li class="srch"><strong>法定假日：</strong>香港法定假日她同样放假——「香港假期都要放」。圣诞＋年假叠加可能造成 14–20 天空窗，提前排班。</li></ul>
+<ul><li class="srch"><strong>年假：</strong>满 1 年 7 天，满 2 年起增加，可分批放不必连续。机票谁出群内说法不一（有说第一年自负、第二年起雇主出）——以你的标准雇佣合约条款为准（N/A）。</li></ul>
+<ul><li class="srch"><strong>休息日／法定假日要她上班：</strong>须补假或补薪，别默认她「应该」。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-02 Lu-璐文）"一年 7 天……满一年"</blockquote>
+<blockquote class="srch">（2026-09-02 xiaoyezi312744）"一年的假期是他自己自负机票……两年才是雇主"</blockquote>
+<blockquote class="srch">（2026-09-08 群内工作指引）"Tell us your routine holiday plans 2 weeks ahead."</blockquote>
+<h3 id="29-新-体检-疫苗与家佣保险">29. 【新】体检、疫苗与家佣保险</h3>
+<p class="srch"><strong>体检：</strong></p>
+<ul><li class="srch">菲律宾当地体检（HIV、梅毒、胸肺 X 光、验孕、乙肝）真实性存疑——「其实在菲律宾做的体检都不知道真实性」；</li></ul>
+<ul><li class="srch"><strong>抵港后尽快加做：</strong>验孕、幽门螺杆菌、HPV、疱疹病毒、白细胞与血压、肠道寄生虫，另加听力（防装聋）；幽门螺杆菌检测约 HK$850＋药费约 HK$500（群内报价，公立医院配药通常便宜一半）；</li></ul>
+<ul><li class="srch"><strong>阳性怎么处理：</strong>小问题不影响工作的，合约已生效，要走正常解雇流程；重大传染病凭医生纸证明「来港时身体不适合该工作」，才有机会不赔一个月工资——关键是在菲律宾体检无问题之后才签约办签证，所以抵港加做要尽快。</li></ul>
+<p class="srch"><strong>保险：</strong></p>
+<ul><li class="srch">标准合约下雇主须提供免费医疗（无上限），另须按《雇员补偿条例》投工伤补偿保险——这两项是法定责任，不是可选项；</li></ul>
+<ul><li class="srch"><strong>群内主流买宏利：</strong>两年保费约 HK$1,380（加额外保障约 1,681），诊所门诊实报实销、每年上限约 HK$4,000；保诚门诊报销上限仅约 210，不划算；</li></ul>
+<ul><li class="srch"><strong>结构性缺口要心里有数：</strong>市面外佣保险的重疾上限只有一两万，与雇主「无上限医疗」的法定责任严重不匹配，投保时问清住院／手术／重疾分项上限。</li></ul>
+<ul><li class="srch">疫苗（麻疹、腮腺炎、德国麻疹等）要求以入境处／卫生署最新公告为准（N/A），签约前问中介并自行核对。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-03 HH）"我是买宏利保险，2 年大概 1380 / 因为它看诊所医生，看多少保险多少，一年 4000 上限"</blockquote>
+<blockquote class="srch">（2026-09-03 VV）"菲姐查出来幽门螺旋杆菌阳性，中介推荐的医生那边配药要 2000 多"</blockquote>
+<blockquote class="srch">（2026-09-04 海星）"-验孕 / 幽罗门杆菌 / HPV / 疱疹病毒 / 白细胞、血压 / 肠道寄生虫"</blockquote>
+<h3 id="30-新-机票-遣散费与长期服务金">30. 【新】机票、遣散费与长期服务金</h3>
+<ul><li class="srch"><strong>雇主承担的机票：</strong>来港（通常含在中介费内，有的不含，签约前问清）、合约届满或终止时的回程；年假返乡票谁出按合约（见第28条）。</li></ul>
+<ul><li class="srch"><strong>买票实操：</strong>不能指定航司、可选转机（更便宜）；但要确认中转地是否允许她过境停留——有雇主买了泰国转机的票，结果不能用，重买直飞还不能退。</li></ul>
+<ul><li class="srch"><strong>以现金代替机票：</strong>可以，但要给「相对应价值的现金」，并且一定要留书面记录，防止她日后回头再讨机票。</li></ul>
+<ul><li class="srch">她自找新雇主、不上飞机，原雇主的机票／等值现金责任仍在。</li></ul>
+<ul><li class="srch"><strong>遣散费／长期服务金：</strong>群内流传「满 24 个月辞退需付遣散费」「满 5 年要付长期服务金」「病假、产假期间解雇罚款最高三十五万」等说法，具体计算方式与条文编号均未核实（N/A）——真要算，先问劳工处，不要按群里数字付。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-07 Lu-璐文）"她上不上飞机是她的事，如果你不买机票给她，要兑现相对应价值的现金给她"</blockquote>
+<blockquote class="srch">（2026-09-07 雇主们·有招支招）"我之前给她买了转机的机票，结果说机票不能用，不能停留在泰国，又重新买直达的，还不能退票"</blockquote>
+<h3 id="31-解雇与黑名单流程">31. 解雇与黑名单流程</h3>
+<p class="srch"><strong>实操要点</strong>：</p>
+<ul><li class="srch">解雇方式二选一：提前1个月书面通知，或即时解雇+1个月工资代通知金；签好终止合约文件；</li></ul>
+<ul><li class="srch"><strong>警告的土办法</strong>：群里共识"警告信没什么用，口头严厉警告"——态度要狠、当场算总账；给机会也就"警告一次、给两次，不行直接开了"，拖久了双方都煎熬；</li></ul>
+<ul><li class="srch"><strong>合同分开保管</strong>：自己那份合约锁起来，办签证等手续只用她那份——防止她接触你的原件去借钱、搞小动作；</li></ul>
+<ul><li class="srch">同步通知中介和入境处（填终止通知书，需工人HKID和联络方式——所以平时要留底）；</li></ul>
+<ul><li class="srch">工人失联/跑路：报警+通知入境处（她会进黑名单，再入境须先还政府垫付的机票钱）；有雇主的做法是"等看她有没有上飞机，再通知入境处"，先止损、后出信；</li></ul>
+<ul><li class="srch"><strong>遇到不好的工人，一定要投诉</strong>：入境处嘴上说隐私不告诉你她有没有被投诉过，但记录都留着——"总比什么都不做好"，你的一封信可能救下一个雇主；</li></ul>
+<ul><li class="srch">遣散费（长期服务金）按法定计算；约满/断约雇主承担回程机票——如以现金代替机票，要留书面记录，防止日后回头再讨机票；</li></ul>
+<ul><li class="srch">合约期内被解雇的工人6个月内很难拿到新签证——这也是威慑力的一部分。</li></ul>
+<ul><li class="srch"><strong>【新】速战速决：</strong>决定就当天执行，给半小时收拾，全程在她房间看着（防藏东西／搞破坏）——「要炒就马上炒，不要低估人性」。</li></ul>
+<ul><li class="srch"><strong>【新】结清单一次算清：</strong>剩余工资 ＋ 未放年假薪酬 ＋ 未发津贴 ＋ 回程机票（或等值现金）。</li></ul>
+<ul><li class="srch"><strong>【新】文件三件套：</strong>termination letter、receipt、给入境处的 notification（写明 HKID 与联络方式），签完即可让她走；并在终止日期起 7 天内通知入境处。</li></ul>
+<ul><li class="srch"><strong>【新】工人主动辞职：</strong>试用期 7 天书面通知、正式期不少于 30 天；依法给足通知期辞职的，她无需赔偿雇主，雇主仍要结清年假薪酬与回程机票。</li></ul>
+<h3 id="32-面试筛选技巧-实战总结">32. 面试筛选技巧（实战总结）</h3>
+<ul><li class="srch">严厉声明手机和借钱两条红线，观察眼神和反应，犹豫的不要；</li></ul>
+<ul><li class="srch">问开放式问题："你觉得自己是什么性格的人？优点是什么？最擅长做什么？"</li></ul>
+<ul><li class="srch"><strong>入职前加做幽门螺杆菌检测</strong>：加钱让中介安排，或让她来港前在菲律宾先做好（群内真实做法）——家有小孩的尤其建议，体检便宜过事后全家治疗；</li></ul>
+<ul><li class="srch">不可迷信简历：教师证等资历在菲律宾本地也难以核实；</li></ul>
+<ul><li class="srch">完约但不获续约的工人，通常是"能力尚可但态度有问题"，要问清原因，"他说得天花乱坠也别全信"；</li></ul>
+<ul><li class="srch">太精明 vs 笨一点：多位雇主表示"请工人蠢比精好，我没空和工人斗"；</li></ul>
+<ul><li class="srch">菲佣 vs 印佣的群内观感：菲佣普遍学历高、英语好、主意多、自尊心强；印佣服从性更好。按自家需要（要学历沟通还是要服从执行）取舍。</li></ul>
+<ul><li class="srch"><strong>【新】上门试工：</strong>让中介把人送到家里做半天，比视频面试真实得多——「其实真的想做可以直接上门试工，一做就看出来」。</li></ul>
+<h3 id="33-新-直接聘请-diy-与中介退改规则">33. 【新】直接聘请（DIY）与中介退改规则</h3>
+<p class="srch"><strong>DIY 路径：</strong>Facebook 群组找「做完一个合约」的工人、HelperPlace 等平台自己面试，省掉中间人；签证、验身、保险、PAOS 这套手续仍建议找中介代办。</p>
+<p class="srch"><strong>中介退改（群内一份样板，签之前逐条对）：</strong></p>
+<ul><li class="srch"><strong>办理期间雇主取消：</strong>中介费不退。</li></ul>
+<ul><li class="srch"><strong>工人原因无法到港：</strong>可免费换同国籍外佣，或退款扣 30% 服务费。</li></ul>
+<ul><li class="srch"><strong>抵港验身不过：</strong>免费换人。</li></ul>
+<ul><li class="srch"><strong>抵港 90 天内：</strong>雇主提出终止并按 45 天内经同中介另选，按原合同总价 85% 执行；工人提出提前终止，中介费 HK$4,000（不含来港机票）。</li></ul>
+<p class="srch"><strong>中介纠纷话术（群内实战）：</strong></p>
+<ul><li class="srch">「家门都没进，要我给一个月？是你嫁人嫁到我家，人不给我，你就要吃我彩礼啊？」</li></ul>
+<ul><li class="srch">「你把所谓法律条款给我看，哪条法律规定的？」</li></ul>
+<ul><li class="srch">「我也不是来闹事的，我是来解决问题的」＋一句「我知道你们做生意不容易，但我的钱也不是大风刮来的」。</li></ul>
+<ul><li class="srch"><strong>对方人身威胁或围堵：</strong>直接 999 报警。</li></ul>
+<ul><li class="srch"><strong>谈判底线参考：</strong>最好＝不赔（5 天工资＋机票＋中介费全免）；最坏＝一个月工资＋机票＋中介费打折。</li></ul>
+<p class="srch"><strong>群内原话：</strong></p>
+<blockquote class="srch">（2026-09-04 荞伊）"这个就感觉是你嫁人嫁到我家里，人不给我，你就要吃我彩礼啊？"</blockquote>
+<blockquote class="srch">（2026-09-04 HH）"中介如果欺负你，马上报警，让警察叔叔保护你……999，记得啊"</blockquote>
+<h2 id="附-雇主管理心法十二条">附：雇主管理心法十二条</h2>
+<p class="srch">1.  信任归信任，验证归验证——做得再好也不放弃CCTV和收据核对。</p>
+<p class="srch">2.  面试讲得再好，蜜月期照常观察，不早交付真心。</p>
+<p class="srch">3.  规矩白纸黑字写下来，口说无凭。</p>
+<p class="srch">4.  底线问题（借钱、泄密、伤害孩子、失联）零容忍，不警告直接处理。</p>
+<p class="srch">5.  小问题当场说，不积攒情绪；"玩几次没反应，她就大着胆子了"。</p>
+<p class="srch">6.  奖励后置：表现好才加薪、才送礼，永远留有激励空间。</p>
+<p class="srch">7.  不预支、不垫付、不借——钱的关系一开就收不住。</p>
+<p class="srch">8.  学会拒绝和狠心，不内耗：心软会被当成"有实力兜底"。</p>
+<p class="srch">9.  孩子的话、邻居的观察、监控画面，都是免费的信息渠道。</p>
+<p class="srch">10.  换人成本高，但忍无可忍时果断换——"terminate一定事出有因"。</p>
+<p class="srch">11.  钱的事全部留痕：出粮签名、汇款自理、开户不出住址证明——不和她发生任何金钱关系。</p>
+<p class="srch">12.  群内经验不等于法规：工资、假期、赔偿这些数字，落地前查劳工处／入境处；查不到就标 N/A，别按群里说的付。</p>
+<h2 id="附二-本次更新索引-2026-09-09">附二：本次更新索引（2026-09-09）</h2>
+<p class="srch">本次依据 2026-08-31 11:00 至 2026-09-09 的新群聊（8,884 条，群组累计 42,317 条）新增／补充如下：</p>
+<ul><li class="srch"><strong>新增条目：</strong>4 出粮方式与凭证、5 汇款回乡、6 银行开户、7 八达通／电话卡／Wi-Fi、14 作息家规与试用期、15 教她做事、16 沟通工具与背景调查、17 情绪与宗教、18 朋友圈与男友、19 零食网购与诈骗、22 孩子出行安全、24 合约硬条款速查、27 签证与 PAOS、28 假期、29 体检与保险、30 机票与遣散费、33 直接聘请。</li></ul>
+<ul><li class="srch"><strong>补充条目：</strong>1 借钱（家人吸血／电子钱包借贷／官方口径）、2 偷窃（离职清场、保险柜＋小冰箱）、3 买菜（网购菜、超市优先、小票夹）、9 装病（抵港加做体检、公立配药）、23 怀孕（产假与医疗费用）、25 中介（FB 找前屋主、评价网站、退改条款）、26 工资（MAW 与膳食津贴、红包尺度）、31 解雇（速战速决、结清单、文件三件套、工人辞职通知期）、32 面试（上门试工）。</li></ul>
+<ul><li class="srch"><strong>结构变动：</strong>条目由 16 条扩为 33 条，编号全部重排；心法由十条扩为十二条；新增副标题、附二、附三。</li></ul>
+<h2 id="附三-待核实清单-n-a-落地前必须自己查一次">附三：待核实清单（N/A）——落地前必须自己查一次</h2>
+<ul><li class="srch"><strong>规定最低工资与膳食津贴的当期标准：</strong>现为 HK$5,100／HK$1,236（2025-09-30 起签订的合约），每年检讨，签约前查劳工处 fdh.labour.gov.hk。</li></ul>
+<ul><li class="srch"><strong>年假机票由谁承担：</strong>群内说法不一，以你的标准雇佣合约条款为准。</li></ul>
+<ul><li class="srch"><strong>遣散费／长期服务金的计算公式与触发条件：</strong>群内只有流传说法，未核。</li></ul>
+<ul><li class="srch"><strong>病假薪酬比例、产假天数与薪酬比例：</strong>群内未讨论。</li></ul>
+<ul><li class="srch">强制性公积金（MPF）是否适用于外佣、雇主是否须供款：群内未讨论。</li></ul>
+<ul><li class="srch"><strong>薪俸税申报与雇主代扣责任：</strong>群内未讨论。</li></ul>
+<ul><li class="srch"><strong>入境处终止合约通知的具体表格编号：</strong>群内未提，查入境处「外籍家庭佣工网上服务」。</li></ul>
+<ul><li class="srch">AlipayHK／GCash 的转账限额与实名要求：群内实测每日约 HK$5,000，以官方最新条款为准。</li></ul>
+<ul><li class="srch"><strong>外佣持 HKID 在各银行独立开户的门槛：</strong>群内未讨论，查银行官网。</li></ul>
+<ul><li class="srch"><strong>各汇款渠道的汇率与手续费比较：</strong>群内未做比较（N/A）。</li></ul>
+<ul><li class="srch">疫苗（麻疹、腮腺炎、德国麻疹等）的最新入境要求：群内未讨论，查入境处／卫生署。</li></ul>
+<ul><li class="srch"><strong>外佣入境冷却期、断约禁入年限：</strong>群内流传版本未与入境处核实，不要当谈判依据。</li></ul>
+<p class="srch"><strong>说明：</strong>本文件为群友经验整理，不是法律意见。凡涉及金额、天数、法例条文，以香港劳工处／入境处最新公告及你的《标准雇佣合约》正本为准。</p>
+  <hr>
+  <p class="meta">本文件為微信群友經驗整理，不是法律意見。涉及金額、天數、法例條文者，以香港勞工處／入境處最新公告及《標準僱傭合約》正本為準。</p>
+</main>
+</div>
+<div id="cnt"></div>
+<script>
+(function(){
+ var root=document.documentElement;
+ try{var t=localStorage.getItem('fdh-theme');if(t){root.setAttribute('data-theme',t);}}catch(e){}
+ var btn=document.getElementById('theme');
+ if(btn){btn.onclick=function(){var cur=root.getAttribute('data-theme')==='dark'?'light':'dark';
+   root.setAttribute('data-theme',cur);try{localStorage.setItem('fdh-theme',cur);}catch(e){}};}
+ var q=document.getElementById('q'), items=[].slice.call(document.querySelectorAll('main .srch')), n=0;
+ function clearMarks(){[].forEach.call(document.querySelectorAll('mark'),function(m){
+   m.parentNode.replaceChild(document.createTextNode(m.textContent),m);});}
+ if(q){q.oninput=function(){var k=q.value.trim().toLowerCase();clearMarks();n=0;
+   var lastH=null;
+   items.forEach(function(el){
+     if(!k){el.classList.remove('hidden');n++;return;}
+     var ok=el.textContent.toLowerCase().indexOf(k)>=0;
+     el.classList.toggle('hidden',!ok);
+     if(ok){n++;if(!el.dataset.hl){el.dataset.hl='1';
+        var re=new RegExp('('+k.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');
+        el.innerHTML=el.innerHTML.replace(/<[^>]*>|[^<]+/g,function(s){
+          return s.charAt(0)==='<'?s:s.replace(re,'<mark>$1</mark>')});
+     }}else{el.dataset.hl='';}
+   });
+   document.getElementById('cnt').textContent=k?('命中 '+n+' 条'):('共 '+items.length+' 段');
+ };q.oninput();}
+})();
+</script>
+</body></html>
