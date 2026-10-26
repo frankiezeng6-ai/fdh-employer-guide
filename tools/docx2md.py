@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """把《菲佣常见问题与应对办法（经验整理）.docx》转成 Markdown 源文件。
 运行（需要 python-docx）：
-  C:/Users/FRANKIE/.workbuddy/binaries/python/envs/default/Scripts/python.exe tools/docx2md.py
+  python tools/docx2md.py
 """
 import re, os
 from docx import Document
 
-SRC = os.environ.get('FDH_DOCX', r'C:/Users/FRANKIE/Desktop/菲佣/菲佣常见问题与应对办法（经验整理）.docx')
+SRC = os.environ.get('FDH_DOCX', r'./源文件/菲佣常见问题与应对办法（经验整理）.docx')
 OUT = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'SOURCE.md'))
 
 def esc(t):
